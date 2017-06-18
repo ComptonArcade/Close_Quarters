@@ -47,11 +47,11 @@ p {
 }
 
 .bg-secondary{
-  background-color: #ce0005;
+  background-color: #017B88;
 }
 
-.bg-secondary h2{
-	color: #83efee;
+.bg-secondary h3{
+	color: #ee792c;
 }
 
 .bg-dark {
@@ -243,7 +243,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background:  #83efee;
+  background:  #ED3036;
   position: absolute;
   bottom: 0;
   text-align: center;
