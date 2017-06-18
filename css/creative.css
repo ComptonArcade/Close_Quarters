@@ -43,19 +43,19 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #000201;
+  background-color: #232323;
 }
 
 .bg-secondary{
-  background-color: #017B88;
+  background-color: #002633;
 }
 
 .bg-secondary h3{
-	color: #ee792c;
+	color: #f40c13;
 }
 
 .bg-dark {
-  background-color: #000201;
+  background-color: #232323;
   color: white;
 }
 .text-faded {
