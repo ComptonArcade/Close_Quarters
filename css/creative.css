@@ -108,7 +108,7 @@ aside {
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #F05F40 !important;
+  color: #5bc0de !important;   /*Section dependent nav color*/
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -121,11 +121,11 @@ aside {
     border-color: rgba(255, 255, 255, 0.3);
   }
   .navbar-default .navbar-header .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.7); /*Non-transition title*/
   }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
-    color: white;
+    color: white; /*Non-Transition title hover color*/
   }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
@@ -133,27 +133,27 @@ aside {
   }
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
-    color: white;
+    color: white; /*Non-transition nav hover color*/
   }
   .navbar-default.affix {
     background-color: white;
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #F05F40;
+    color: #002633; /*Transition Nav Title color*/
     font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #5bc0de;  /*Transition Nav Title Hover Color*/
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
-    color: #222222;
+    color: #002633; /*Default transition nav color*/
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #F05F40;
+    color: #5bc0de; /*Transition nav hover color */
   }
 }
 header {
