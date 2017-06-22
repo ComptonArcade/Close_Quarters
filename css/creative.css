@@ -12,12 +12,12 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #F05F40;
+  border-color: #ee322c;
   border-width: 3px;
   max-width: 50px;
 }
 hr.light {
-  border-color: white;
+  border-color: #ee322c;
 }
 a {
   -webkit-transition: all 0.35s;
@@ -80,14 +80,14 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #F05F40;
+  color: #5bc0de;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #eb3812;
+  color: #d9534f;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
@@ -220,7 +220,7 @@ header .header-content .header-content-inner p {
 }
 .section-heading {
   margin-top: 0;
-  color: #EE622C;
+  color: #ee322c;
 }
 .service-box {
   max-width: 400px;
@@ -361,7 +361,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #ee4b28;
+  background-color: #ee622c;
   border-color: #ed431f;
 }
 .btn-primary:active,
