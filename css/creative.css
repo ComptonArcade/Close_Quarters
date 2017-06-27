@@ -84,7 +84,15 @@ aside {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
+  height: auto;
 }
+
+.navbar-default .navbar-header img {
+	float: left;
+	padding-top: 11px;
+	padding-right: 5px;
+}
+
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
   color: #d9534f;
